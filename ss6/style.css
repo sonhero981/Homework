@@ -1,0 +1,44 @@
+h2{
+    color:orange;
+}
+/*selector (tên gọi){
+    [property]:
+}*/
+h4{
+    font-style: italic;
+}
+h6{
+    text-align: right;
+}
+div{
+    text-decoration:underline;
+}
+/*Class selector*/
+.text-red {
+    color:red;
+}
+.text-italic{
+    font-style: italic;
+}
+.bordered {
+border: 1px solid #353535
+}
+.border-bottom{
+        border: 2px dashed green;
+}
+/*id selector*/
+#heading-1 {
+    background-color: gray;
+}
+/*relationship selector*/
+div p{
+    font-style: italic;
+}
+/* Quan hệ anh em */
+div p ~ span{
+color: aqua;
+}
+/*hover*/
+h2:hover{
+    background-color: blue;
+}
