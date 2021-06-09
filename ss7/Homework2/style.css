@@ -3,6 +3,9 @@
     font-family: sans-serif;
     list-style-type: none;
 }
+html{
+    font-size: 100%;
+}
 .header{
     color: white;
     background-color: #1abc9c;
@@ -14,12 +17,13 @@
     flex-direction: column;
 }
 h1 {
-    font-size: 40px;
+    font-size: 3rem;
     margin-bottom: 0%;
 }
 a{
     text-decoration: none;
     color: white;
+    font-size: 1rem;
 }
 .navbar{
     background-color: #333;
@@ -74,5 +78,8 @@ flex-wrap: nowrap;
 }
 .footer h2{
     margin: 0px;
-    font-size:5vh;
+    font-size:2rem;
+}
+p{
+    font-size: 1rem;
 }
